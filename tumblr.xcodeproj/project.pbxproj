@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B4DC5151DAA035F00824422 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1B4DC5141DAA035F00824422 /* Podfile */; };
 		1B6CB3031DA9DAC000CD1F1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6CB3021DA9DAC000CD1F1A /* AppDelegate.swift */; };
-		1B6CB3051DA9DAC000CD1F1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6CB3041DA9DAC000CD1F1A /* ViewController.swift */; };
+		1B6CB3051DA9DAC000CD1F1A /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6CB3041DA9DAC000CD1F1A /* PhotosViewController.swift */; };
 		1B6CB3081DA9DAC000CD1F1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6CB3061DA9DAC000CD1F1A /* Main.storyboard */; };
 		1B6CB30A1DA9DAC000CD1F1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B6CB3091DA9DAC000CD1F1A /* Assets.xcassets */; };
 		1B6CB30D1DA9DAC000CD1F1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6CB30B1DA9DAC000CD1F1A /* LaunchScreen.storyboard */; };
@@ -39,10 +38,9 @@
 
 /* Begin PBXFileReference section */
 		0483137187E1A6B52FB8BA52 /* Pods-tumblr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tumblr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tumblr/Pods-tumblr.debug.xcconfig"; sourceTree = "<group>"; };
-		1B4DC5141DAA035F00824422 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1B6CB2FF1DA9DAC000CD1F1A /* tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tumblr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B6CB3021DA9DAC000CD1F1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B6CB3041DA9DAC000CD1F1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B6CB3041DA9DAC000CD1F1A /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PhotosViewController.swift; path = "/Users/RajSathya/Google Drive/CodePath/apps/tumblr/tumblr/PhotosViewController.swift"; sourceTree = "<absolute>"; };
 		1B6CB3071DA9DAC000CD1F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B6CB3091DA9DAC000CD1F1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B6CB30C1DA9DAC000CD1F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -107,7 +105,6 @@
 		1B6CB2F61DA9DAC000CD1F1A = {
 			isa = PBXGroup;
 			children = (
-				1B4DC5141DAA035F00824422 /* Podfile */,
 				1B6CB3011DA9DAC000CD1F1A /* tumblr */,
 				1B6CB3161DA9DAC000CD1F1A /* tumblrTests */,
 				1B6CB3211DA9DAC000CD1F1A /* tumblrUITests */,
@@ -131,7 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				1B6CB3021DA9DAC000CD1F1A /* AppDelegate.swift */,
-				1B6CB3041DA9DAC000CD1F1A /* ViewController.swift */,
+				1B6CB3041DA9DAC000CD1F1A /* PhotosViewController.swift */,
 				1B6CB3061DA9DAC000CD1F1A /* Main.storyboard */,
 				1B6CB3091DA9DAC000CD1F1A /* Assets.xcassets */,
 				1B6CB30B1DA9DAC000CD1F1A /* LaunchScreen.storyboard */,
@@ -285,7 +282,6 @@
 			files = (
 				1B6CB30D1DA9DAC000CD1F1A /* LaunchScreen.storyboard in Resources */,
 				1B6CB30A1DA9DAC000CD1F1A /* Assets.xcassets in Resources */,
-				1B4DC5151DAA035F00824422 /* Podfile in Resources */,
 				1B6CB3081DA9DAC000CD1F1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,7 +430,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B6CB3051DA9DAC000CD1F1A /* ViewController.swift in Sources */,
+				1B6CB3051DA9DAC000CD1F1A /* PhotosViewController.swift in Sources */,
 				1B6CB3031DA9DAC000CD1F1A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
