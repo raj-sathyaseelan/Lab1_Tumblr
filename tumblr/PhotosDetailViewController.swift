@@ -7,12 +7,25 @@
 //
 
 import UIKit
+import AFNetworking
 
-class PhotosDetailViewController: UITableViewController {
+class PhotosDetailViewController: UIViewController {
     
-    
+
     @IBOutlet weak var photoDetailImageView: UIImageView!
+    var post:TumblePost!
     
+    /*
+    
+    var post:TumblePost {
+        get {
+            return self.post
+        }
+        set {
+            self.post = newValue
+        }
+    }
+     */
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +35,7 @@ class PhotosDetailViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-        
+        self.photoDetailImageView.setImageWith(URL(string: post.photoURL)!)
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,6 +44,8 @@ class PhotosDetailViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
+    
+    /*
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
@@ -41,6 +56,7 @@ class PhotosDetailViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return 0
     }
+ */
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
